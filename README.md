@@ -1,5 +1,5 @@
 # yara
-YARA is a tool aimed at (but not limited to) helping malware researchers to identify and classify malware samples. 
+YARA is a tool to identify and classify malware. Tools such as PEStudio can be used to obtain malware signatures. 
 
 Let's see how we can get started with it.
 
