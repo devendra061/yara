@@ -8,6 +8,7 @@ Step 1: Let's download Yara tool from http://virustotal.github.io/yara/
 Step 2: Let's download PEStudio tool. It is a tool used for static analysis of malware/portable executables. 
 
 Step 3: Download a portable executable (say putty.exe from https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html)
+[Note: putty.exe downloaded from the above link is NOT a malware. However, we can use it safely to demonstrate how Yara tool and PEStudio tools can be used for analysis.]
 
 Step 4: Open putty.exe using PEStudio tool and retreive some attributes that we will use for Yara rules.
         [For simplicity, we will grab first-byte-hex value and indicators > URL pattern value]
