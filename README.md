@@ -13,7 +13,7 @@ Step 3: Download a portable executable (say putty.exe from https://www.chiark.gr
 Step 4: Open putty.exe using PEStudio tool and retreive some attributes that we will use for Yara rules.
         [For simplicity, we will grab first-byte-hex value and indicators > URL pattern value]
 
-Step 5: Create Yara rule using a text editor and give it a name (say myYaraRule.yara)
+Step 5: Create Yara rule using a text editor and give it a name (say [myYaraRule.yara](https://github.com/devendra061/yara/blob/main/myYaraRule.yara))
 
 Step 5: Run Yara tool 
 
